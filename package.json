@@ -1,0 +1,29 @@
+{
+  "name": "dhs-hackclub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/react-router-hash-link": "^2.4.7",
+    "hamburger-react": "^2.5.0",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^18",
+    "react-icons": "^4.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}

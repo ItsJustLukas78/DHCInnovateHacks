@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+--foreground-rgb: 255, 255, 255;
+--background-start-rgb: 0, 0, 0;
+--background-end-rgb: 0, 0, 0;
+}
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.dhcColorGradient1 {
+  @apply bg-gradient-to-r from-[#efffb0] via-[#c1f5a2] to-[#a2f7a3]
+}
+
+.dhcColorGradient2 {
+  @apply bg-gradient-to-r from-[#a2f7a3] via-[#a1fadc] to-[#a5fbfe]
+}
+
+.dhcColorGradient3 {
+  @apply bg-gradient-to-r from-[#a5fbfe] via-[#a2e0fb] to-[#a4a2f5]
+}
+
+.dhcColorGradient4 {
+  @apply bg-gradient-to-r from-[#a4a2f5] via-[#bda1fa] to-[#e3a2ff]
+}
