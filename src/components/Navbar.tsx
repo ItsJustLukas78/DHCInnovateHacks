@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <div className="px-12 z-30 h-20 w-full fixed top-0 bg-GSGray bg-opacity-50 justify-between items-center 2xl:gap-16 xl:gap-12 md:gap-10 inline-flex bg-gradient-to-b
+      <div className="xs:px-12 px-5 z-30 h-20 w-full fixed top-0 bg-GSGray bg-opacity-50 justify-between items-center 2xl:gap-16 xl:gap-12 md:gap-10 inline-flex bg-gradient-to-b
    from-neutral-800  to-GSGray">
         <div className="gap-2 inline-flex items-center">
           <Image src="/dhc-logo.png" alt="Logo" width="75" height="75" />

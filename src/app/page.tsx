@@ -21,9 +21,9 @@ export default function Home() {
       <div className="xs:my-52 my-44 flex w-full flex-col items-center justify-center self-center gap-60">
         <div className="w-[80%] flex h-auto flex-col">
           <DHCColorGradient
-            className="sm:h-[90px] sm:w-[545px] xs:h-[50px] xs:w-[380px] h-[40px] w-[230px] mb-3"
+            className="sm:h-[90px] sm:w-[545px] xs:h-[50px] xs:w-[380px] h-[40px] w-[242px] mb-3"
           >
-            <h2 className="sm:text-7xl xs:text-5xl text-3xl font-bold text-center absolute">Innovate Hacks</h2>
+            <h2 className="sm:text-7xl xs:text-5xl text-[32px] font-bold text-center absolute">Innovate Hacks</h2>
           </DHCColorGradient>
           <p className="sm:text-2xl text-xl">
             October 15 - 25, 2023
@@ -31,7 +31,6 @@ export default function Home() {
           <p className="sm:text-2xl text-xl">
             Dublin High School
           </p>
-          {/*Join Button*/}
           <a
             className="pl-0.5 opacity-100 duration-200 transition-colors lg:text-lg xl:text-xl"
             target="_blank"
@@ -97,33 +96,7 @@ export default function Home() {
         </div>
         {/*Guests*/}
         <div id="guests" className="w-[80%] flex h-auto flex-col scroll-mt-20 items-center">
-          <div className="flex flex-col max-w-[500px]">
-            <h2 className="sm:text-5xl text-4xl font-medium mb-10 text-center">Guests</h2>
-            <div className="flex flex-row flex-wrap justify-center items-center sm:gap-8 gap-14">
-              <PersonIcon
-                name="John Doe"
-                occupation="CEO of Google"
-                imageLink="https://i.pravatar.cc/300"
-                href="https://www.google.com"
-              />
-              <PersonIcon
-                name="Jane Doe"
-                occupation="CEO of Google"
-                imageLink="https://i.pravatar.cc/300"
-                href="https://www.google.com"
-              />
-              <PersonIcon
-                name="Juh Doe"
-                occupation="CEO of Google"
-                imageLink="https://i.pravatar.cc/300"
-                href="https://www.google.com"
-              />
-            </div>
-          </div>
-        </div>
-        {/*Team*/}
-        <div id="team" className="w-[80%] flex h-auto flex-col scroll-mt-20 items-center">
-          <h2 className="sm:text-5xl text-4xl font-medium mb-10 text-center">Team</h2>
+          <h2 className="sm:text-5xl text-4xl font-medium mb-10 text-center">Guests</h2>
           <div className="flex flex-row flex-wrap justify-center items-center sm:gap-8 gap-14">
             <PersonIcon
               name="John Doe"
@@ -145,6 +118,36 @@ export default function Home() {
             />
           </div>
         </div>
+        {/*Team*/}
+        <div id="team" className="w-[80%] flex h-auto flex-col scroll-mt-20 items-center">
+          <h2 className="sm:text-5xl text-4xl font-medium mb-10 text-center">Team</h2>
+          <div className="flex flex-row flex-wrap justify-center items-center sm:gap-8 gap-14">
+            <PersonIcon
+              name="Sris Nigamh"
+              occupation="DHC Officer"
+              imageLink="https://i.pravatar.cc/300"
+              href="https://www.google.com"
+            />
+            <PersonIcon
+              name="Yash Bansal"
+              occupation="DHC Officer"
+              imageLink="https://i.pravatar.cc/300"
+              href="https://www.google.com"
+            />
+            <PersonIcon
+              name="Lukas Somwong"
+              occupation="Organizer"
+              imageLink="https://i.pravatar.cc/300"
+              href="https://www.google.com"
+            />
+            <PersonIcon
+              name="Ashmit S"
+              occupation="Organizer"
+              imageLink="https://i.pravatar.cc/300"
+              href="https://www.google.com"
+            />
+          </div>
+        </div>
         {/*FAQ*/}
         <div id="faq" className="w-[80%] flex h-auto flex-col scroll-mt-20 items-center">
           <h2 className="sm:text-5xl text-4xl font-medium mb-10 text-center">FAQ</h2>
@@ -157,15 +160,12 @@ export default function Home() {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >
-                    Are you a human?
+                    How much experience is needed to participate?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel className="p-4 bg-gray-800">
                   <p>
-                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                    cupidatat occaecat ut occaecat consequat est minim minim
-                    esse tempor laborum consequat esse adipisicing eu
-                    reprehenderit enim.
+                    None. This hackathon is meant to both help new people learn skills and let experienced coders showcase theirs.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
@@ -174,15 +174,12 @@ export default function Home() {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >
-                    Are you a human?
+                    How long do we have to submit?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel className="p-4 bg-gray-800">
                   <p>
-                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                    cupidatat occaecat ut occaecat consequat est minim minim
-                    esse tempor laborum consequat esse adipisicing eu
-                    reprehenderit enim.
+                    You have 2 weeks to submit your work. At the end of which it will be graded by a panel of judges.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
@@ -191,15 +188,12 @@ export default function Home() {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >
-                    Are you a human?
+                    What is the maximum prize? What is the guaranteed prize for all participants?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel className="p-4 bg-gray-800">
                   <p>
-                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                    cupidatat occaecat ut occaecat consequat est minim minim
-                    esse tempor laborum consequat esse adipisicing eu
-                    reprehenderit enim.
+                    Undetermined. We are still looking for sponsors. We will update this as soon as we know.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
@@ -208,104 +202,101 @@ export default function Home() {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >
-                    Are you a human?
+                    What is the genre? What kind of project should I submit?
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel className="p-4 bg-gray-800">
                   <p>
-                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                    cupidatat occaecat ut occaecat consequat est minim minim
-                    esse tempor laborum consequat esse adipisicing eu
-                    reprehenderit enim.
+                    Anything innovative. Try to find something new, something that’s not out there at the moment.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
             </div>
-            <div className="bg-[#a5fbfe] p-0.5">
-              <AccordionItem>
-                <AccordionItemHeading>
-                  <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >
-                    Are you a human?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel className="p-4 bg-gray-800">
-                  <p>
-                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                    cupidatat occaecat ut occaecat consequat est minim minim
-                    esse tempor laborum consequat esse adipisicing eu
-                    reprehenderit enim.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-            </div>
-            <div className="bg-[#a2e0fb] p-0.5">
-              <AccordionItem>
-                <AccordionItemHeading>
-                  <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >
-                    Are you a human?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel className="p-4 bg-gray-800">
-                  <p>
-                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                    cupidatat occaecat ut occaecat consequat est minim minim
-                    esse tempor laborum consequat esse adipisicing eu
-                    reprehenderit enim.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-            </div>
-            <div className="bg-[#a4a2f5] p-0.5">
-              <AccordionItem>
-                <AccordionItemHeading>
-                  <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >
-                    Are you a human?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel className="p-4 bg-gray-800">
-                  <p>
-                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                    cupidatat occaecat ut occaecat consequat est minim minim
-                    esse tempor laborum consequat esse adipisicing eu
-                    reprehenderit enim.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-            </div>
-            <div className="bg-[#bda1fa] p-0.5">
-              <AccordionItem>
-                <AccordionItemHeading>
-                  <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >
-                    Are you a human?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel className="p-4 bg-gray-800">
-                  <p>
-                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                    cupidatat occaecat ut occaecat consequat est minim minim
-                    esse tempor laborum consequat esse adipisicing eu
-                    reprehenderit enim.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-            </div>
-            <div className="bg-[#e3a2ff] p-0.5">
-              <AccordionItem>
-                <AccordionItemHeading>
-                  <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >
-                    Are you a human?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel className="p-4 bg-gray-800">
-                  <p>
-                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                    cupidatat occaecat ut occaecat consequat est minim minim
-                    esse tempor laborum consequat esse adipisicing eu
-                    reprehenderit enim.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-            </div>
+            {/*<div className="bg-[#a5fbfe] p-0.5">*/}
+            {/*  <AccordionItem>*/}
+            {/*    <AccordionItemHeading>*/}
+            {/*      <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >*/}
+            {/*        Are you a human?*/}
+            {/*      </AccordionItemButton>*/}
+            {/*    </AccordionItemHeading>*/}
+            {/*    <AccordionItemPanel className="p-4 bg-gray-800">*/}
+            {/*      <p>*/}
+            {/*        Exercitation in fugiat est ut ad ea cupidatat ut in*/}
+            {/*        cupidatat occaecat ut occaecat consequat est minim minim*/}
+            {/*        esse tempor laborum consequat esse adipisicing eu*/}
+            {/*        reprehenderit enim.*/}
+            {/*      </p>*/}
+            {/*    </AccordionItemPanel>*/}
+            {/*  </AccordionItem>*/}
+            {/*</div>*/}
+            {/*<div className="bg-[#a2e0fb] p-0.5">*/}
+            {/*  <AccordionItem>*/}
+            {/*    <AccordionItemHeading>*/}
+            {/*      <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >*/}
+            {/*        Are you a human?*/}
+            {/*      </AccordionItemButton>*/}
+            {/*    </AccordionItemHeading>*/}
+            {/*    <AccordionItemPanel className="p-4 bg-gray-800">*/}
+            {/*      <p>*/}
+            {/*        Exercitation in fugiat est ut ad ea cupidatat ut in*/}
+            {/*        cupidatat occaecat ut occaecat consequat est minim minim*/}
+            {/*        esse tempor laborum consequat esse adipisicing eu*/}
+            {/*        reprehenderit enim.*/}
+            {/*      </p>*/}
+            {/*    </AccordionItemPanel>*/}
+            {/*  </AccordionItem>*/}
+            {/*</div>*/}
+            {/*<div className="bg-[#a4a2f5] p-0.5">*/}
+            {/*  <AccordionItem>*/}
+            {/*    <AccordionItemHeading>*/}
+            {/*      <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >*/}
+            {/*        Are you a human?*/}
+            {/*      </AccordionItemButton>*/}
+            {/*    </AccordionItemHeading>*/}
+            {/*    <AccordionItemPanel className="p-4 bg-gray-800">*/}
+            {/*      <p>*/}
+            {/*        Exercitation in fugiat est ut ad ea cupidatat ut in*/}
+            {/*        cupidatat occaecat ut occaecat consequat est minim minim*/}
+            {/*        esse tempor laborum consequat esse adipisicing eu*/}
+            {/*        reprehenderit enim.*/}
+            {/*      </p>*/}
+            {/*    </AccordionItemPanel>*/}
+            {/*  </AccordionItem>*/}
+            {/*</div>*/}
+            {/*<div className="bg-[#bda1fa] p-0.5">*/}
+            {/*  <AccordionItem>*/}
+            {/*    <AccordionItemHeading>*/}
+            {/*      <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >*/}
+            {/*        Are you a human?*/}
+            {/*      </AccordionItemButton>*/}
+            {/*    </AccordionItemHeading>*/}
+            {/*    <AccordionItemPanel className="p-4 bg-gray-800">*/}
+            {/*      <p>*/}
+            {/*        Exercitation in fugiat est ut ad ea cupidatat ut in*/}
+            {/*        cupidatat occaecat ut occaecat consequat est minim minim*/}
+            {/*        esse tempor laborum consequat esse adipisicing eu*/}
+            {/*        reprehenderit enim.*/}
+            {/*      </p>*/}
+            {/*    </AccordionItemPanel>*/}
+            {/*  </AccordionItem>*/}
+            {/*</div>*/}
+            {/*<div className="bg-[#e3a2ff] p-0.5">*/}
+            {/*  <AccordionItem>*/}
+            {/*    <AccordionItemHeading>*/}
+            {/*      <AccordionItemButton className="p-4 bg-gray-800 font-semibold" >*/}
+            {/*        Are you a human?*/}
+            {/*      </AccordionItemButton>*/}
+            {/*    </AccordionItemHeading>*/}
+            {/*    <AccordionItemPanel className="p-4 bg-gray-800">*/}
+            {/*      <p>*/}
+            {/*        Exercitation in fugiat est ut ad ea cupidatat ut in*/}
+            {/*        cupidatat occaecat ut occaecat consequat est minim minim*/}
+            {/*        esse tempor laborum consequat esse adipisicing eu*/}
+            {/*        reprehenderit enim.*/}
+            {/*      </p>*/}
+            {/*    </AccordionItemPanel>*/}
+            {/*  </AccordionItem>*/}
+            {/*</div>*/}
           </Accordion>
         </div>
       </div>
