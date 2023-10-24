@@ -19,7 +19,7 @@ export default function Navbar() {
         <div className="hidden md:inline-flex md:gap-16">
           <NavButton href="/#about">About</NavButton>
           <NavButton href="/#sponsors">Sponsors</NavButton>
-          <NavButton href="/#guests">Guests</NavButton>
+          <NavButton href="/#judges">Judges</NavButton>
           <NavButton href="/#team">Team</NavButton>
           <NavButton href="/#faq">FAQ</NavButton>
         </div>
@@ -41,7 +41,7 @@ export default function Navbar() {
           <div onClick={() => setExpanded(!expanded)} className="mt-5 ml-10 flex flex-col items-center gap-8">
             <NavButton href="/#about">About</NavButton>
             <NavButton href="/#sponsors">Sponsors</NavButton>
-            <NavButton href="/#guests">Guests</NavButton>
+            <NavButton href="/#judges">Judges</NavButton>
             <NavButton href="/#team">Team</NavButton>
             <NavButton href="/#faq">FAQ</NavButton>
           </div>

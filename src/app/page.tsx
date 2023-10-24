@@ -38,11 +38,11 @@ export default function Home() {
             href={"https://innovate-hacks.devpost.com/"}
           >
             <DHCColorGradient
-              className="h-[40px] w-[190px] group hover:w-[260px] mt-5"
+              className="h-[40px] w-[210px] group mt-5"
             >
-              <div className="flex flex-row absolute items-center justify-center gap-2">
+              <div className="flex flex-row absolute items-center justify-center gap-2 transition-all sm:group-hover:ml-2 sm:group-hover:scale-110 duration-500">
                 <h1
-                  className="transition-all sm:text-2xl text-xl font-bold text-center sm:group-hover:text-3xl"
+                  className="transition-all sm:text-2xl text-xl font-bold text-center"
                 >
                   Get Hacking!
                 </h1>
@@ -56,19 +56,26 @@ export default function Home() {
           <div className="flex flex-col max-w-[800px]">
             <h2 className="sm:text-5xl text-4xl font-medium mb-10 text-center">About</h2>
             <div className="flex flex-col gap-3">
-              <p className="text-xl font-light">
-                &emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p className="text-xl font-light leading-7">
+                &emsp;Welcome to Innovate Hacks, a platform where your creativity knows no bounds.
+                Hosted by Hack Club, this hackathon is not just about coding, it’s about fostering
+                innovation and birthing revolutionary ideas. Over the span of two weeks, from
+                November 12 to November 26, get ready to dive deep into the world of technology,
+                attend enlightening workshops, interact with accomplished guest speakers, and work
+                on a project that could be the stepping stone for tomorrow's technological advancements.
+                Whether you are a seasoned coder or a newbie, this is your stage to shine, learn and collaborate.
               </p>
-              <p className="text-xl font-light">
-                &emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              <p className="text-xl font-light leading-7">
+                &emsp;Innovate Hacks is an open challenge inviting individuals from all walks of coding experience.
+                Through hackclub.com, we have orchestrated a series of workshops aimed at both honing the skills of
+                seasoned developers and nurturing the curiosity of beginners. Our event is graced by the presence of
+                industry stalwarts who will not only share their journey but also adjudicate the projects submitted at
+                the climax of the hackathon.
               </p>
-              <p className="text-xl font-light">
-                &emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p className="text-xl font-light leading-7">
+                &emsp;Teamwork often breeds groundbreaking ideas but individual endeavors are equally celebrated here.
+                To embark on this exciting journey, simply join the hackathon on Devpost and become a part of our vibrant
+                community on the linked Discord server: https://discord.gg/ubUQkBReHZ
               </p>
             </div>
           </div>
@@ -95,24 +102,24 @@ export default function Home() {
           </div>
         </div>
         {/*Guests*/}
-        <div id="guests" className="w-[80%] flex h-auto flex-col scroll-mt-20 items-center">
-          <h2 className="sm:text-5xl text-4xl font-medium mb-10 text-center">Guests</h2>
-          <div className="flex flex-row flex-wrap justify-center items-center sm:gap-8 gap-14">
+        <div id="judges" className="w-[80%] flex h-auto flex-col scroll-mt-20 items-center">
+          <h2 className="sm:text-5xl text-4xl font-medium mb-10 text-center">Judges</h2>
+          <div className="flex flex-row flex-wrap justify-center pt-0 sm:gap-8 gap-14 h-auto">
             <PersonIcon
-              name="John Doe"
-              occupation="CEO of Google"
+              name="Jaiveer Singh"
+              occupations={["MET Berkeley Alumni", "Robotics Engineer @ Nvidia"]}
               imageLink="https://i.pravatar.cc/300"
               href="https://www.google.com"
             />
             <PersonIcon
-              name="Jane Doe"
-              occupation="CEO of Google"
+              name="Satyam Sinha"
+              occupations={["VP Engineering @ Palo Alto Networks", "Co-Founder of Aporeto"]}
               imageLink="https://i.pravatar.cc/300"
               href="https://www.google.com"
             />
             <PersonIcon
-              name="Juh Doe"
-              occupation="CEO of Google"
+              name="Nizar Quamar"
+              occupations={["Director of Engineering Software Development @ Oracle Health and RPA"]}
               imageLink="https://i.pravatar.cc/300"
               href="https://www.google.com"
             />
@@ -124,25 +131,25 @@ export default function Home() {
           <div className="flex flex-row flex-wrap justify-center items-center sm:gap-8 gap-14">
             <PersonIcon
               name="Sris Nigamh"
-              occupation="DHC Officer"
+              occupations={["Founder/President of Dublin Hack Club"]}
               imageLink="https://i.pravatar.cc/300"
               href="https://www.google.com"
             />
             <PersonIcon
               name="Yash Bansal"
-              occupation="DHC Officer"
+              occupations={["Vice President of Events of Dublin Hack Club"]}
               imageLink="https://i.pravatar.cc/300"
               href="https://www.google.com"
             />
             <PersonIcon
               name="Lukas Somwong"
-              occupation="Organizer"
+              occupations={["Organizer"]}
               imageLink="https://i.pravatar.cc/300"
               href="https://www.google.com"
             />
             <PersonIcon
               name="Ashmit S"
-              occupation="Organizer"
+              occupations={["Organizer"]}
               imageLink="https://i.pravatar.cc/300"
               href="https://www.google.com"
             />
