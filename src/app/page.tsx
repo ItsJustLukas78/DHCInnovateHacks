@@ -58,7 +58,7 @@ export default function Home() {
             <div className="flex flex-col gap-3">
               <p className="text-xl font-light leading-7">
                 &emsp;Welcome to Innovate Hacks, a platform where your creativity knows no bounds.
-                Hosted by Hack Club, this hackathon is not just about coding, it’s about fostering
+                Hosted by Dublin Hack Club, this hackathon is not just about coding, it’s about fostering
                 innovation and birthing revolutionary ideas. Over the span of two weeks, from
                 November 12 to November 26, get ready to dive deep into the world of technology,
                 attend enlightening workshops, interact with accomplished guest speakers, and work
