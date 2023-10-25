@@ -130,7 +130,7 @@ export default function Home() {
           <h2 className="sm:text-5xl text-4xl font-medium mb-10 text-center">Team</h2>
           <div className="flex flex-row flex-wrap justify-center items-center sm:gap-8 gap-14">
             <PersonIcon
-              name="Sris Nigamh"
+              name="Srish Nigam"
               occupations={["Founder/President of Dublin Hack Club"]}
               imageLink="https://i.pravatar.cc/300"
               href="https://www.google.com"
