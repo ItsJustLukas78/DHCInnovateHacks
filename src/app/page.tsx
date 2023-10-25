@@ -26,10 +26,10 @@ export default function Home() {
             <h2 className="sm:text-7xl xs:text-5xl text-[32px] font-bold text-center absolute">Innovate Hacks</h2>
           </DHCColorGradient>
           <p className="sm:text-2xl text-xl">
-            October 15 - 25, 2023
+            November 12 - 26, 2023
           </p>
           <p className="sm:text-2xl text-xl">
-            Dublin High School
+            Online Hackathon
           </p>
           <a
             className="pl-0.5 opacity-100 duration-200 transition-colors lg:text-lg xl:text-xl"
