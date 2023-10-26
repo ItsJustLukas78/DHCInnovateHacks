@@ -86,17 +86,17 @@ export default function Home() {
           <div className="flex flex-row flex-wrap justify-center items-center sm:gap-8 gap-14">
             <Sponsor
               name="Google"
-              imageLink="https://placehold.co/100x100"
+              imageLink=""
               href="https://www.google.com"
             />
             <Sponsor
               name="Apple"
-              imageLink="https://placehold.co/100x100"
+              imageLink=""
               href="https://www.apple.com"
             />
             <Sponsor
               name="Tesla"
-              imageLink="https://placehold.co/100x100"
+              imageLink=""
               href="https://www.tesla.com"
             />
           </div>
