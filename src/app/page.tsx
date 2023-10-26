@@ -108,19 +108,19 @@ export default function Home() {
             <PersonIcon
               name="Jaiveer Singh"
               occupations={["MET Berkeley Alumni", "Robotics Engineer @ Nvidia"]}
-              imageLink="https://i.pravatar.cc/300"
+              imageLink=""
               href="https://www.google.com"
             />
             <PersonIcon
               name="Satyam Sinha"
               occupations={["VP Engineering @ Palo Alto Networks", "Co-Founder of Aporeto"]}
-              imageLink="https://i.pravatar.cc/300"
+              imageLink=""
               href="https://www.google.com"
             />
             <PersonIcon
               name="Nizar Quamar"
               occupations={["Director of Engineering Software Development @ Oracle Health and RPA"]}
-              imageLink="https://i.pravatar.cc/300"
+              imageLink=""
               href="https://www.google.com"
             />
           </div>
@@ -132,25 +132,25 @@ export default function Home() {
             <PersonIcon
               name="Srish Nigam"
               occupations={["Founder/President of Dublin Hack Club"]}
-              imageLink="https://i.pravatar.cc/300"
+              imageLink=""
               href="https://www.google.com"
             />
             <PersonIcon
               name="Yash Bansal"
               occupations={["Vice President of Events of Dublin Hack Club"]}
-              imageLink="https://i.pravatar.cc/300"
+              imageLink=""
               href="https://www.google.com"
             />
             <PersonIcon
               name="Lukas Somwong"
               occupations={["Organizer"]}
-              imageLink="https://i.pravatar.cc/300"
+              imageLink=""
               href="https://www.google.com"
             />
             <PersonIcon
               name="Ashmit S"
               occupations={["Organizer"]}
-              imageLink="https://i.pravatar.cc/300"
+              imageLink=""
               href="https://www.google.com"
             />
           </div>
