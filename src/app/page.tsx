@@ -118,9 +118,9 @@ export default function Home() {
               href="https://www.google.com"
             />
             <PersonIcon
-              name="Nizar Quamar"
+              name="Nizar Qamar"
               occupations={["Director of Engineering Software Development @ Oracle Health and RPA"]}
-              imageLink="/people/nizarQuamar.png"
+              imageLink="/people/nizarQamar.png"
               href="https://www.google.com"
             />
           </div>
