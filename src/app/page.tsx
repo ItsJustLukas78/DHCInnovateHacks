@@ -85,18 +85,18 @@ export default function Home() {
           <h2 className="sm:text-5xl text-4xl font-medium mb-10 text-center">Sponsors</h2>
           <div className="flex flex-row flex-wrap justify-center items-center sm:gap-8 gap-14">
             <Sponsor
-              name="Google"
-              imageLink=""
+              name="AoPS"
+              imageLink="/sponsors/AoPS.png"
               href="https://www.google.com"
             />
             <Sponsor
-              name="Apple"
-              imageLink=""
+              name="echo3D"
+              imageLink="/sponsors/echo3d.png"
               href="https://www.apple.com"
             />
             <Sponsor
-              name="Tesla"
-              imageLink=""
+              name=".xyz"
+              imageLink="/sponsors/xyz.png"
               href="https://www.tesla.com"
             />
           </div>
@@ -114,13 +114,13 @@ export default function Home() {
             <PersonIcon
               name="Satyam Sinha"
               occupations={["VP Engineering @ Palo Alto Networks", "Co-Founder of Aporeto"]}
-              imageLink=""
+              imageLink="/people/satyamSinha.png"
               href="https://www.google.com"
             />
             <PersonIcon
               name="Nizar Quamar"
               occupations={["Director of Engineering Software Development @ Oracle Health and RPA"]}
-              imageLink=""
+              imageLink="/people/nizarQuamar.png"
               href="https://www.google.com"
             />
           </div>
@@ -132,25 +132,25 @@ export default function Home() {
             <PersonIcon
               name="Srish Nigam"
               occupations={["Founder/President of Dublin Hack Club"]}
-              imageLink=""
+              imageLink="/people/srishNigam.jpeg"
               href="https://www.google.com"
             />
             <PersonIcon
               name="Yash Bansal"
               occupations={["Vice President of Events of Dublin Hack Club"]}
-              imageLink=""
+              imageLink="/people/yashBansal.jpeg"
               href="https://www.google.com"
             />
             <PersonIcon
               name="Lukas Somwong"
               occupations={["Organizer"]}
-              imageLink=""
+              imageLink="/people/lukasSomwong.png"
               href="https://www.google.com"
             />
             <PersonIcon
               name="Ashmit S"
               occupations={["Organizer"]}
-              imageLink=""
+              imageLink="/people/ashmitS.png"
               href="https://www.google.com"
             />
           </div>

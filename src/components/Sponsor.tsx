@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function Sponsor({ name, imageLink, href }: { name?: string, imageLink?: string, href?: string }) {
   return (
@@ -8,7 +9,12 @@ export default function Sponsor({ name, imageLink, href }: { name?: string, imag
       rel="noopener"
       href={href}
     >
-      <img className="h-32 w-32" src={imageLink} alt={name} />
+      <Image 
+        src={imageLink as string}
+        width={200}
+        height={200}
+        alt={`Picture of ${name}`}
+      />
     </a>
   )
 }

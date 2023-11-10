@@ -1,4 +1,6 @@
+import next from 'next'
 import React from 'react'
+import Image from 'next/image'
 
 export default function PersonIcon({ name, occupations, imageLink, href }: { name?: string, occupations?: string[], imageLink?: string, href?: string }) {
   return (
@@ -8,7 +10,12 @@ export default function PersonIcon({ name, occupations, imageLink, href }: { nam
       rel="noopener"
       href={href}
     >
-      <img className="h-32 w-32" src={imageLink} alt={name} />
+      <Image 
+        src={imageLink as string}
+        width={120}
+        height={120}
+        alt={`Picture of ${name}`}
+      />
       <div className="text-white text-center flex flex-col gap-3">
         <h1 className="text-2xl">{name}</h1>
         {occupations ? occupations.map((occupation, index) =>
