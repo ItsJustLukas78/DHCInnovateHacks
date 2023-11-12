@@ -87,17 +87,17 @@ export default function Home() {
             <Sponsor
               name="AoPS"
               imageLink="/sponsors/AoPS.png"
-              href="https://www.google.com"
+              href="https://artofproblemsolving.com"
             />
             <Sponsor
               name="echo3D"
               imageLink="/sponsors/echo3d.png"
-              href="https://www.apple.com"
+              href="https://www.echo3d.co"
             />
             <Sponsor
               name=".xyz"
               imageLink="/sponsors/xyz.png"
-              href="https://www.tesla.com"
+              href="https://gen.xyz"
             />
           </div>
         </div>
@@ -109,19 +109,19 @@ export default function Home() {
               name="Jaiveer Singh"
               occupations={["MET Berkeley Alumni", "Robotics Engineer @ Nvidia"]}
               imageLink=""
-              href="https://www.google.com"
+              href=""
             />
             <PersonIcon
               name="Satyam Sinha"
               occupations={["VP Engineering @ Palo Alto Networks", "Co-Founder of Aporeto"]}
               imageLink="/people/satyamSinha.png"
-              href="https://www.google.com"
+              href=""
             />
             <PersonIcon
               name="Nizar Qamar"
               occupations={["Director of Engineering Software Development @ Oracle Health and RPA"]}
               imageLink="/people/nizarQamar.png"
-              href="https://www.google.com"
+              href=""
             />
           </div>
         </div>
@@ -133,25 +133,25 @@ export default function Home() {
               name="Srish Nigam"
               occupations={["Founder/President of Dublin Hack Club"]}
               imageLink="/people/srishNigam.jpeg"
-              href="https://www.google.com"
+              href=""
             />
             <PersonIcon
               name="Yash Bansal"
               occupations={["Vice President of Events of Dublin Hack Club"]}
               imageLink="/people/yashBansal.jpeg"
-              href="https://www.google.com"
+              href=""
             />
             <PersonIcon
               name="Lukas Somwong"
               occupations={["Organizer"]}
               imageLink="/people/lukasSomwong.png"
-              href="https://www.google.com"
+              href=""
             />
             <PersonIcon
               name="Ashmit S"
               occupations={["Organizer"]}
               imageLink="/people/ashmitS.png"
-              href="https://www.google.com"
+              href=""
             />
           </div>
         </div>
